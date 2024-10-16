@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Us - University of Amirthan</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f4f4f4; 
+        }
+        .header { 
+            background-color: #bf811e; 
+            color: white; 
+            text-align: center; 
+            padding: 20px 0; 
+            font-size: 2em; 
+        }
+        .content { 
+            padding: 20px; 
+            max-width: 800px; 
+            margin: auto; 
+            background-color: white; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+        h2 { 
+            color: #bf811e; 
+        }
+        form { 
+            background-color: #f9f9f9; 
+            padding: 20px; 
+            border: 1px solid #ddd; 
+            margin-top: 20px; 
+        }
+        label { 
+            font-weight: bold; 
+        }
+        input[type="text"], input[type="email"], input[type="date"] {
+            width: 100%; 
+            padding: 10px; 
+            margin-top: 5px; 
+            margin-bottom: 20px; 
+            border: 1px solid #ccc; 
+            border-radius: 5px;
+        }
+        input[type="submit"] { 
+            background-color: #bf811e; 
+            color: white; 
+            border: none; 
+            padding: 10px 20px; 
+            cursor: pointer; 
+            font-size: 1em; 
+            border-radius: 5px;
+        }
+        input[type="submit"]:hover { 
+            background-color: #a56d19; 
+        }
+        .links a {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px;
+            background-color: #bf811e;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Visit Us</h1>
+    </div>
+
+    <div class="content">
+        <!-- Campus Tours Section -->
+        <h2>Campus Tours</h2>
+        <p>We welcome prospective students and families to explore our beautiful campus. Whether you are interested in a guided tour, attending a class, or meeting with current students, we offer multiple options to give you a glimpse into life at the University of Amirthan.</p>
+
+        <!-- Registration Form -->
+        <form>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="date">Preferred Visit Date:</label><br>
+            <input type="date" id="date" name="date" required><br><br>
+            <label for="campus">Preferred Campus:</label><br>
+            <select id="campus" name="campus">
+                <option value="none">--Select Campus--</option>
+                <option value="Chennai">Chennai Campus</option>
+                <option value="Madurai">Madurai Campus</option>
+                <option value="Coimbatore">Coimbatore Campus</option>
+                <option value="Trichy">Trichy Campus</option>
+                <option value="Salem">Salem Campus</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="links">
+        <a href="1.html">Home-Page</a>
+    </div>
+</body>
+</html>
